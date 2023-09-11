@@ -1,0 +1,80 @@
+/* style.css */
+
+/* 전체 페이지 스타일링 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+/* 로고 스타일링 */
+.logo {
+    font-size: 36px;
+    color: rgb(255, 255, 255); /* 검은색 로고 텍스트 */
+    text-align: center; /* 텍스트를 가운데 정렬합니다. */
+}
+
+/* 헤더 스타일링 */
+header {
+    background-color: #333; /* 진한 회색 헤더 배경 */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 네비게이션 메뉴 스타일링 */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* 텍스트를 가운데 정렬합니다. */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* 검은색 메뉴 링크 텍스트 */
+    font-weight: 700;
+}
+
+/* 섹션 스타일링 */
+section {
+    background-color: #fff; /* 흰색 섹션 배경 */
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000; /* 검은색 텍스트 */
+}
+
+/* 푸터 스타일링 */
+footer {
+    background-color: #333; /* 진한 회색 푸터 배경 */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* 링크 호버 효과 */
+a:hover {
+    color: #888; /* 회색으로 변하는 호버 효과 (진한 회색) */
+}
+
+/* 버튼 스타일링 */
+.cta-button {
+    display: inline-block;
+    background-color: #000; /* 검은색 버튼 배경 */
+    color: #fff; /* 흰색 버튼 텍스트 */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* 배경 색상 변화 애니메이션 */
+}
+
+.cta-button:hover {
+    background-color: #333; /* 진한 회색으로 변하는 호버 효과 */
+}
